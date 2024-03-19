@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html><head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="description" content="In this book, Peter Verhasselt and Nick Boucart will explore what it takes to build winning digital products today. They’ll focus on the idea that one should stop building software, and build digital services instead.">
+<meta name="keywords" content="">
+
+<link rel="canonical" href="https://www.hyperscale-microcare.com/">
+
+<title>Hyperscale - microcare the digital cook book. </title>
+
+    <meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="">
+<meta property="og:url" content="https://www.hyperscale-microcare.com/">
+
+
+    <link rel="preload" as="script" href="static/utils.c997ba789ee31fe61b1e.js">
+    <link rel="preload" as="script" href="static/Cradle.c9144221d5b5d6147353.js">
+    <link rel="preconnect dns-prefetch" href="https://fonts.gstatic.com/" crossorigin="">
+
+
+
+
+
+
+    <link rel="preload" as="style" href="static/css_002.css"><link media="all" onload="this.media='all'" type="text/css" rel="stylesheet" href="static/css_002.css"><noscript><link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"/></noscript>
+<link rel="preload" as="style" href="static/css_003.css"><link media="all" onload="this.media='all'" type="text/css" rel="stylesheet" href="static/css_003.css"><noscript><link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,100italic,300italic,400italic,500,500italic,700,700italic,900,900italic&display=swap"/></noscript>
+<link rel="preload" as="style" href="static/css.css"><link media="all" onload="this.media='all'" type="text/css" rel="stylesheet" href="static/css.css"><noscript><link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&display=swap"/></noscript>
+
+
+  <style type="text/css" media="screen">
+    body{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;margin:0;width:100%;font-family:Montserrat;font-weight:400;background:rgb(255,255,255);}a{text-decoration:none;color:inherit;}a:not(.btn):hover{text-decoration:underline;}input,select,textarea,p,h1,h2,h3,h4,h5,h6{margin:0;font-size:inherit;font-weight:inherit;}main{overflow:hidden;}u > span{text-decoration:inherit;}ol,ul{padding-left:2.5rem;margin:.625rem 0;}p{word-wrap:break-word;}h1 > span,h2 > span,h3 > span,h4 > span,h5 > span,h6 > span{display:block;word-wrap:break-word;}iframe{border:0;}*{box-sizing:border-box;}:root.js-text-scaling{--mobile-font-size:4vw;--default-font-size:16px;}.item-absolute{position:absolute;}.item-relative{position:relative;}.item-block{display:block;height:100%;width:100%;}.item-cover{z-index:1000030;}.item-breakword{word-wrap:break-word;}.item-content-box{box-sizing:content-box;}.hidden{display:none;}.clearfix{clear:both;}sup{margin-left:0.1rem;line-height:0;}@keyframes slide-down{from{opacity:0;transform:translateY(-50px);}}@keyframes fade-in{from{opacity:0;}}@supports (-webkit-overflow-scrolling:touch){@media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi){.image[src$=".svg"]{width:calc(100% + 1px);}}}.show-for-sr{border:0 !important;clip:rect(1px,1px,1px,1px) !important;-webkit-clip-path:inset(50%) !important;clip-path:inset(50%) !important;height:1px !important;margin:-1px !important;overflow:hidden !important;padding:0 !important;position:absolute !important;width:1px !important;white-space:nowrap !important;}.headline{font-family:Montserrat;font-weight:400;}.section-fit{max-width:400px;}:root{--section-relative-margin:0 auto;}.section-relative{position:relative;margin:0 auto;}.js-text-scaling .section-relative{margin:var(--section-relative-margin);}.section-inner{height:100%;}#page_block_header{height:51.4375rem;max-width:100%;}#page_block_header .section-holder-border{border:0;}#page_block_header .section-block{background:url(//v.fastcdn.co/u/a32d8e67/47729575-0-Naamloos-1.png) repeat rgb(255,255,255) 50% 50% / cover;height:51.4375rem;}#page_block_header .section-holder-overlay{opacity:0;background-color:#FFFFFF;display:block;}#element-293{top:2.5rem;left:8rem;height:5.9375rem;width:8.9375rem;z-index:44;}#element-169{top:25.3125rem;left:7.4375rem;height:15.5rem;width:10.75rem;z-index:3;}.circle{border-radius:50%;}.shape{height:inherit;}.line-horizontal{height:.625rem;}.line-vertical{height:100%;margin-right:.625rem;}[class*='line-']{box-sizing:content-box;}#element-169 .shape{border:0;border-radius:0 0 0 0;background:url(//v.fastcdn.co/u/a32d8e67/37840161-0-Cover-Hyperscale-and.png) repeat rgb(205,205,205) 50% 50% / cover;opacity:1;}#element-2{top:14.6875rem;left:1.1875rem;height:4.375rem;width:22.5rem;z-index:17;color:#000000;font-size:1.7337rem;line-height:2.1875rem;text-align:center;}#element-2 .x_02114aa0{text-align:center;line-height:2.1875rem;font-size:1.7337rem;}#element-2 .x_98491b8b{text-align:left;caret-color:rgb(57,53,50);}#element-2 .x_f2074b6c{color:#ffffff;}#element-5{top:20.6875rem;left:2.375rem;height:1.5rem;width:20.3125rem;z-index:15;color:#393532;font-size:1.0526rem;line-height:1.4875rem;text-align:center;}#element-5 .x_ae8cf30e{text-align:center;line-height:1.5rem;font-size:1.0526rem;}#element-5 .x_f2074b6c{color:#ffffff;}#element-79{top:45.875rem;left:1.1875rem;height:3.75rem;width:22.5rem;z-index:16;}.btn{cursor:pointer;text-align:center;transition:border .5s;width:100%;border:0;white-space:normal;display:table-cell;vertical-align:middle;padding:0;line-height:120%;}.btn-shadow{box-shadow:0 1px 3px rgba(1,1,1,0.5);}#element-79 .btn.btn-effect3d:active{box-shadow:none;}#element-79 .btn:hover{background:#393532;color:#FFFFFF;}#element-79 .btn{background:#EF60A1;color:#FFFFFF;font-size:1.3003rem;font-family:Roboto;font-weight:700;height:3.75rem;width:22.5rem;border-radius:9px;}#element-93{top:52.125rem;left:1.25rem;height:1.375rem;width:22.5rem;z-index:14;}#element-93 .shape{border-bottom:2px solid #000000;}#element-91{top:26.0625rem;left:1.25rem;height:0.5rem;width:0.5rem;z-index:18;}#element-91 .shape{border:0;background:rgb(0,0,0);opacity:1;}#page_block_footer{height:111.625rem;max-width:100%;}#page_block_footer .section-holder-border{border:0;}#page_block_footer .section-block{background:rgb(255,255,255);height:111.625rem;}#page_block_footer .section-holder-overlay{display:none;}#element-13{top:2.125rem;left:1.25rem;height:1.75rem;width:22.5rem;z-index:4;color:#393532;font-size:1.4241rem;line-height:1.7538rem;text-align:center;}#element-13 .x_6ee82066{text-align:center;line-height:1.75rem;font-size:1.4241rem;}#element-13 .x_55c7a8f5{color:#393532;}#element-95{top:29.3125rem;left:3rem;height:19rem;width:18.9375rem;z-index:5;}#element-95 .shape{border:0;border-radius:0 0 0 0;background:rgb(60,63,138);opacity:1;}#element-15{top:8.9375rem;left:3.75rem;height:4.25rem;width:17.375rem;z-index:6;color:#FFFFFF;font-size:1.4861rem;line-height:2.1rem;text-align:center;}#element-15 .x_fc9d998b{text-align:center;line-height:2.125rem;font-size:1.4861rem;}#element-15 .x_7b2817bf{color:#000000;}#element-19{top:32.5rem;left:3.8125rem;height:4.25rem;width:17.4375rem;z-index:8;color:#393532;font-size:1.4861rem;line-height:2.1rem;text-align:center;}#element-19 .x_fc9d998b{text-align:center;line-height:2.125rem;font-size:1.4861rem;}#element-19 .x_f2074b6c{color:#ffffff;}#element-23{top:56.5rem;left:3.8125rem;height:4.25rem;width:17.4375rem;z-index:10;color:#393532;font-size:1.4861rem;line-height:2.1rem;text-align:center;}#element-23 .x_fc9d998b{text-align:center;line-height:2.125rem;font-size:1.4861rem;}#element-16{top:14rem;left:4.25rem;height:11.8125rem;width:16.25rem;z-index:7;color:#FFFFFF;font-size:0.9288rem;line-height:1.3125rem;text-align:center;}#element-16 .x_0d0d8539{text-align:center;line-height:1.3125rem;font-size:0.9288rem;}#element-16 .x_7b2817bf{color:#000000;}#element-20{top:36.875rem;left:3.75rem;height:7.875rem;width:17.5rem;z-index:9;color:#393532;font-size:0.9288rem;line-height:1.3125rem;text-align:center;}#element-20 .x_0d0d8539{text-align:center;line-height:1.3125rem;font-size:0.9288rem;}#element-20 .x_f2074b6c{color:#ffffff;}#element-24{top:62.3125rem;left:3.6875rem;height:10.5rem;width:17.5625rem;z-index:11;color:#393532;font-size:0.9288rem;line-height:1.3125rem;text-align:center;}#element-24 .x_0d0d8539{text-align:center;line-height:1.3125rem;font-size:0.9288rem;}#element-279{top:81.625rem;left:0;height:13.4222rem;width:24.9375rem;z-index:39;}#element-286{top:98.5625rem;left:1.1875rem;height:8.25rem;width:22.5rem;z-index:42;color:#37465A;font-size:0.9907rem;line-height:1.4rem;text-align:center;}#element-286 .x_7e43f367{text-align:center;line-height:1.375rem;font-size:0.9907rem;}#element-286 .x_55c7a8f5{color:#393532;}#element-286 .x_98491b8b{text-align:left;caret-color:rgb(57,53,50);}#page-block-3tzyczzk4acq2e3z8locnv1jor{height:103.875rem;max-width:100%;}#page-block-3tzyczzk4acq2e3z8locnv1jor .section-holder-border{border:0;}#page-block-3tzyczzk4acq2e3z8locnv1jor .section-block{background:url(//v.fastcdn.co/u/a32d8e67/47731095-0-Naamloos-2.png) repeat rgb(221,204,181) 50% 50% / cover;height:103.875rem;}#page-block-3tzyczzk4acq2e3z8locnv1jor .section-holder-overlay{display:none;}#element-303{top:2.5rem;left:1.25rem;height:6.75rem;width:22.5rem;z-index:49;color:#393532;font-size:1.4241rem;line-height:1.725rem;text-align:left;}#element-303 .x_0a9f93df{text-align:left;line-height:1.6875rem;font-size:1.4241rem;}#element-303 .x_f2074b6c{color:#ffffff;}#element-304{top:11.125rem;left:1.25rem;height:1.375rem;width:22.5rem;z-index:92;color:#37465A;font-size:0.9907rem;line-height:1.4rem;text-align:left;}#element-304 .x_ef245e2e{text-align:left;line-height:1.375rem;font-size:0.9907rem;}#element-304 .x_98491b8b{text-align:left;caret-color:rgb(57,53,50);}#element-304 .x_f2074b6c{color:#ffffff;}#page-block-bsuls25ony2uc6m3aob2jwz5mi{height:71.75rem;max-width:100%;}#page-block-bsuls25ony2uc6m3aob2jwz5mi .section-holder-border{border:0;}#page-block-bsuls25ony2uc6m3aob2jwz5mi .section-block{background:no-repeat rgb(246,246,246) center center / cover;background-image:url(//v.fastcdn.co/u/a1ab1db8/9053763-0-BG-MEDIUM.jpg),url(//v.fastcdn.co/t/a32d8e67/1f477586/1575126320-9053763-ghost-BG-MEDIUM.jpg);height:71.75rem;}#page-block-bsuls25ony2uc6m3aob2jwz5mi .section-holder-overlay{display:none;}#element-26{top:2.625rem;left:1.25rem;height:1.75rem;width:22.5rem;z-index:12;color:#393532;font-size:1.4241rem;line-height:1.7538rem;text-align:center;}#element-26 .x_6ee82066{text-align:center;line-height:1.75rem;font-size:1.4241rem;}#element-26 .x_55c7a8f5{color:#393532;}#element-115{top:6.3125rem;left:3.75rem;height:8.5rem;width:17.4375rem;z-index:20;color:#FFFFFF;font-size:1.4861rem;line-height:2.1rem;text-align:center;}#element-115 .x_fc9d998b{text-align:center;line-height:2.125rem;font-size:1.4861rem;}#element-115 .x_98491b8b{text-align:left;caret-color:rgb(57,53,50);}#element-115 .x_9d85ea3d{color:#b0b0b0;}#element-228{top:17.1875rem;left:1.25rem;height:46.75rem;width:22.5rem;z-index:26;color:#37465A;font-size:0.9907rem;line-height:1.4rem;text-align:left;}#element-228 .x_ef245e2e{text-align:left;line-height:1.375rem;font-size:0.9907rem;}#element-228 .x_0999e5fb{color:#2f2f2f;}#element-228 .x_0f6e495c{text-align:left;caret-color:rgb(47,47,47);}#element-284{top:67.125rem;left:1.25rem;height:2.4375rem;width:22.5rem;z-index:41;}#element-284 .btn.btn-effect3d:active{box-shadow:none;}#element-284 .btn:hover{background:#393532;color:#FFFFFF;}#element-284 .btn{background:#3C3F8A;color:#FFFFFF;font-size:0.8669rem;font-family:"Open Sans";font-weight:700;height:2.4375rem;width:22.5rem;border-radius:10px;}#page-block-gxzdx3wxbyxzyr0qi2qllq5mi{height:91.4375rem;max-width:100%;}#page-block-gxzdx3wxbyxzyr0qi2qllq5mi .section-holder-border{border:0;}#page-block-gxzdx3wxbyxzyr0qi2qllq5mi .section-block{background:rgb(255,255,255);height:91.4375rem;}#page-block-gxzdx3wxbyxzyr0qi2qllq5mi .section-holder-overlay{display:none;}#element-124{top:2.5rem;left:1.1875rem;height:1.75rem;width:22.5rem;z-index:19;color:#000000;font-size:1.4241rem;line-height:1.7538rem;text-align:center;}#element-124 .x_6ee82066{text-align:center;line-height:1.75rem;font-size:1.4241rem;}#element-124 .x_7b2817bf{color:#000000;}#element-161{top:6.3125rem;left:2.5rem;height:8rem;width:8rem;z-index:24;}#element-161 .shape{border:0;border-radius:0 0 0 0;background:rgb(221,204,181);opacity:1;}#element-164{top:8.6875rem;left:4.875rem;height:3.22rem;width:2.9375rem;z-index:25;}#element-123{top:9.9375rem;left:6.5rem;height:16.0625rem;width:15.9375rem;z-index:23;}#element-123 .shape{border:0;border-radius:0 0 0 0;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mM89h8AApEBx2iaqpQAAAAASUVORK5CYII=) repeat rgb(255,255,255) 46% 0 / cover;opacity:1;}#element-121{top:28.3125rem;left:3.8125rem;height:1.8125rem;width:17.4375rem;z-index:21;color:#FFFFFF;font-size:1.3003rem;line-height:1.8375rem;text-align:center;}#element-121 .x_0d91ddff{text-align:center;line-height:1.8125rem;font-size:1.3003rem;}#element-121 .x_0999e5fb{color:#2f2f2f;}#element-122{top:32rem;left:1.25rem;height:13.5rem;width:22.5rem;z-index:22;color:#000000;font-size:1.0526rem;line-height:1.4875rem;text-align:center;}#element-122 .x_8642b94b{text-align:center;line-height:1.5rem;font-size:1.0526rem;}#element-122 .x_0999e5fb{color:#2f2f2f;}#element-122 .x_0f6e495c{text-align:left;caret-color:rgb(47,47,47);}#element-232{top:47.75rem;left:1.25rem;height:7.3125rem;width:8.125rem;z-index:30;}#element-232 .shape{border:0;border-radius:0 0 0 0;background:rgb(221,204,181);opacity:1;}#element-233{top:49.625rem;left:3.6875rem;height:3.5625rem;width:3.25rem;z-index:31;}#element-231{top:51.1875rem;left:6.3125rem;height:16.3125rem;width:16.1875rem;z-index:29;}#element-231 .shape{border:0;border-radius:0 0 0 0;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mM89h8AApEBx2iaqpQAAAAASUVORK5CYII=) repeat rgb(255,255,255) 50% 50% / cover;opacity:1;}#element-229{top:69.625rem;left:6.3125rem;height:1.8125rem;width:17.4375rem;z-index:27;color:#FFFFFF;font-size:1.3003rem;line-height:1.8375rem;text-align:left;}#element-229 .x_d32da229{text-align:left;line-height:1.8125rem;font-size:1.3003rem;}#element-229 .x_0999e5fb{color:#2f2f2f;}#element-230{top:74rem;left:1.25rem;height:8.75rem;width:22.5rem;z-index:28;color:#000000;font-size:1.0526rem;line-height:1.275rem;text-align:center;}#element-230 .x_ba44e98d{text-align:center;line-height:1.25rem;font-size:1.0526rem;}#element-230 .x_0999e5fb{color:#2f2f2f;}#element-230 .x_0f6e495c{text-align:left;caret-color:rgb(47,47,47);}#element-281{top:84.625rem;left:3.5rem;height:3.6875rem;width:18rem;z-index:40;}#element-281 .btn.btn-effect3d:active{box-shadow:none;}#element-281 .btn:hover{background:#1565C0;color:#FFFFFF;}#element-281 .btn{background:#3C3F8A;color:#FFFFFF;font-size:1.2384rem;font-family:"Open Sans";font-weight:700;height:3.6875rem;width:18rem;border-radius:10px;}#page-block-2tnrrqx8nar{height:60.5625rem;max-width:100%;}#page-block-2tnrrqx8nar .section-holder-border{border:0;}#page-block-2tnrrqx8nar .section-block{background:url(//v.fastcdn.co/u/a32d8e67/47748930-0-Naamloos-2.png) repeat rgb(0,0,0) 50% 50% / cover;height:60.5625rem;}#page-block-2tnrrqx8nar .section-holder-overlay{opacity:0;background-color:#000000;display:block;}#element-267{top:17rem;left:1.875rem;height:28.139rem;width:22.5rem;z-index:35;}#element-262{top:3.6875rem;left:1.25rem;height:1.75rem;width:22.5rem;z-index:32;color:#393532;font-size:1.4241rem;line-height:1.725rem;text-align:left;}#element-262 .x_467a70c7{text-align:left;line-height:1.75rem;font-size:1.4241rem;}#element-262 .x_f2074b6c{color:#ffffff;}#element-268{top:20.5rem;left:4.875rem;height:24.625rem;width:16.75rem;z-index:36;}#element-268 .shape{border:0;border-radius:0 0 0 0;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mM89h8AApEBx2iaqpQAAAAASUVORK5CYII=) repeat 50% 50% / cover;opacity:1.0120481927711;}#element-264{top:6.4375rem;left:1.25rem;height:3.75rem;width:22.5rem;z-index:33;color:#393532;font-size:1.0526rem;line-height:1.275rem;text-align:left;}#element-264 .x_d49b91da{text-align:left;line-height:1.25rem;font-size:1.0526rem;}#element-264 .x_f2074b6c{color:#ffffff;}#element-266{top:14.125rem;left:1.25rem;height:5.4375rem;width:5.75rem;z-index:34;}#element-266 .shape{border:0;border-radius:0 0 0 0;background:rgb(45,48,103);opacity:1;}#element-269{top:16rem;left:3.25rem;height:1.6875rem;width:1.6875rem;z-index:37;}#element-289{top:48.4375rem;left:1.9375rem;height:3.75rem;width:21.125rem;z-index:43;}#element-289 .btn.btn-effect3d:active{box-shadow:none;}#element-289 .btn:hover{background:#393532;color:#000000;}#element-289 .btn{background:#FFFFFF;color:#000000;font-size:1.3003rem;font-family:"Open Sans";font-weight:700;height:3.75rem;width:21.125rem;border-radius:0;}#element-270{top:53.6875rem;left:1.9375rem;height:3.75rem;width:21.125rem;z-index:38;}#element-270 .btn.btn-effect3d:active{box-shadow:none;}#element-270 .btn:hover{background:#393532;color:#000000;}#element-270 .btn{background:#FFFFFF;color:#000000;font-size:1.3003rem;font-family:"Open Sans";font-weight:700;height:3.75rem;width:21.125rem;border-radius:0;}#page-block-voez4pfous7ryf57oyctyb9{height:6.1875rem;max-width:100%;}#page-block-voez4pfous7ryf57oyctyb9 .section-holder-border{border:0;}#page-block-voez4pfous7ryf57oyctyb9 .section-block{background:rgb(246,246,246);height:6.1875rem;}#page-block-voez4pfous7ryf57oyctyb9 .section-holder-overlay{display:none;}#element-45{top:2.5rem;left:1.25rem;height:1.1875rem;width:22.5rem;z-index:13;color:#000000;font-size:0.9907rem;line-height:1.19rem;text-align:center;}#element-45 .x_2b60e4ec{text-align:center;line-height:1.1875rem;font-size:0.9907rem;}#element-45 .x_0999e5fb{color:#2f2f2f;}#element-45 .x_0f6e495c{text-align:left;caret-color:rgb(47,47,47);}@media screen and (max-width:400px){:root{font-size:4vw;}:root.js-text-scaling{font-size:var(--mobile-font-size);}}@media screen and (min-width:401px) and (max-width:767px){:root{font-size:16px;}:root.js-text-scaling{font-size:var(--default-font-size);}}@media screen and (min-width:768px) and (max-width:1200px){:root{font-size:1.33vw;}}@media screen and (min-width:768px) and (max-width:7680px){.hidden-desktop{display:none;}}@media screen and (max-width:767px){.hidden-mobile{display:none;}}@media screen and (min-width:768px){.section-fit{max-width:60rem;}#page_block_header{height:57rem;max-width:100%;}#page_block_header .section-holder-border{border:0;}#page_block_header .section-block{background:url(//v.fastcdn.co/u/a32d8e67/47729575-0-Naamloos-1.png) repeat rgb(255,255,255) 50% 50% / cover;height:57rem;}#page_block_header .section-holder-overlay{opacity:0;background-color:#FFFFFF;display:block;}#element-293{top:0;left:0;height:5.9375rem;width:8.9375rem;z-index:44;}#element-169{top:13.8125rem;left:33.1875rem;height:36.625rem;width:25.4375rem;z-index:3;}#element-169 .shape{border:0;border-radius:0 0 0 0;background:url(//v.fastcdn.co/u/a32d8e67/37840161-0-Cover-Hyperscale-and.png) repeat rgb(205,205,205) 50% 50% / cover;opacity:1;}#element-2{top:18rem;left:0;height:7.125rem;width:34.3125rem;z-index:17;color:#000000;font-size:2.5387rem;line-height:3.5875rem;text-align:left;}#element-2 .x_8c048be8{text-align:left;line-height:3.5625rem;font-size:2.5387rem;}#element-2 .x_98491b8b{text-align:left;caret-color:rgb(57,53,50);}#element-2 .x_f2074b6c{color:#ffffff;}#element-5{top:25.6875rem;left:0;height:1.5rem;width:32.3125rem;z-index:15;color:#393532;font-size:1.0526rem;line-height:1.4875rem;text-align:left;}#element-5 .x_1dc74687{text-align:left;line-height:1.5rem;font-size:1.0526rem;}#element-5 .x_f2074b6c{color:#ffffff;}#element-79{top:36.25rem;left:0;height:3.3125rem;width:21.125rem;z-index:16;}#element-79 .btn.btn-effect3d:active{box-shadow:none;}#element-79 .btn:hover{background:#393532;color:#FFFFFF;}#element-79 .btn{background:#EF60A1;color:#FFFFFF;font-size:1.1146rem;font-family:Roboto;font-weight:700;height:3.3125rem;width:21.125rem;border-radius:9px;}#element-93{top:37.375rem;left:16.8125rem;height:1.375rem;width:25rem;z-index:14;}#element-93 .shape{border-bottom:2px solid #000000;}#element-91{top:37.5rem;left:41.4375rem;height:1.0625rem;width:1.0625rem;z-index:18;}#element-91 .shape{border:0;background:rgb(0,0,0);opacity:1;}#page_block_footer{height:65.6875rem;max-width:100%;}#page_block_footer .section-holder-border{border:0;}#page_block_footer .section-block{background:rgb(255,255,255);height:65.6875rem;}#page_block_footer .section-holder-overlay{display:none;}#element-13{top:3.375rem;left:12.375rem;height:2.625rem;width:34.875rem;z-index:4;color:#393532;font-size:1.8576rem;line-height:2.625rem;text-align:center;}#element-13 .x_eb0060c7{text-align:center;line-height:2.625rem;font-size:1.8576rem;}#element-13 .x_55c7a8f5{color:#393532;}#element-95{top:9.5rem;left:20.375rem;height:22.25rem;width:18.9375rem;z-index:5;}#element-95 .shape{border:0;border-radius:0 0 0 0;background:rgb(60,63,138);opacity:1;}#element-15{top:12.875rem;left:0.75rem;height:1.75rem;width:17.375rem;z-index:6;color:#FFFFFF;font-size:1.2384rem;line-height:1.75rem;text-align:center;}#element-15 .x_7df451b3{text-align:center;line-height:1.75rem;font-size:1.2384rem;}#element-15 .x_7b2817bf{color:#000000;}#element-19{top:12.875rem;left:21.125rem;height:1.75rem;width:17.4375rem;z-index:8;color:#393532;font-size:1.2384rem;line-height:1.75rem;text-align:center;}#element-19 .x_7df451b3{text-align:center;line-height:1.75rem;font-size:1.2384rem;}#element-19 .x_f2074b6c{color:#ffffff;}#element-23{top:12.875rem;left:42.5rem;height:3.5rem;width:17.4375rem;z-index:10;color:#393532;font-size:1.2384rem;line-height:1.75rem;text-align:center;}#element-23 .x_7df451b3{text-align:center;line-height:1.75rem;font-size:1.2384rem;}#element-16{top:19.1875rem;left:0.75rem;height:11.8125rem;width:16.25rem;z-index:7;color:#FFFFFF;font-size:0.9288rem;line-height:1.3125rem;text-align:center;}#element-16 .x_0d0d8539{text-align:center;line-height:1.3125rem;font-size:0.9288rem;}#element-16 .x_7b2817bf{color:#000000;}#element-20{top:19.1875rem;left:20.5rem;height:7.875rem;width:17.5rem;z-index:9;color:#393532;font-size:0.9288rem;line-height:1.3125rem;text-align:center;}#element-20 .x_0d0d8539{text-align:center;line-height:1.3125rem;font-size:0.9288rem;}#element-20 .x_f2074b6c{color:#ffffff;}#element-24{top:19.1875rem;left:41.875rem;height:10.5rem;width:17.5625rem;z-index:11;color:#393532;font-size:0.9288rem;line-height:1.3125rem;text-align:center;}#element-24 .x_0d0d8539{text-align:center;line-height:1.3125rem;font-size:0.9288rem;}#element-279{top:38rem;left:-6.1875rem;height:22.875rem;width:42.5rem;z-index:39;}#element-286{top:46.875rem;left:36.3125rem;height:9.75rem;width:23.125rem;z-index:42;color:#37465A;font-size:0.9907rem;line-height:1.6rem;text-align:left;}#element-286 .x_3579aa00{text-align:left;line-height:1.625rem;font-size:0.9907rem;}#element-286 .x_55c7a8f5{color:#393532;}#element-286 .x_98491b8b{text-align:left;caret-color:rgb(57,53,50);}#page-block-3tzyczzk4acq2e3z8locnv1jor{height:35.375rem;max-width:100%;}#page-block-3tzyczzk4acq2e3z8locnv1jor .section-holder-border{border:0;}#page-block-3tzyczzk4acq2e3z8locnv1jor .section-block{background:url(//v.fastcdn.co/u/a32d8e67/47731095-0-Naamloos-2.png) repeat rgb(221,204,181) 50% 50% / cover;height:35.375rem;}#page-block-3tzyczzk4acq2e3z8locnv1jor .section-holder-overlay{display:none;}#element-303{top:15.5625rem;left:29.3125rem;height:10.5rem;width:30.125rem;z-index:49;color:#393532;font-size:1.8576rem;line-height:2.625rem;text-align:left;}#element-303 .x_4ebdd446{text-align:left;line-height:2.625rem;font-size:1.8576rem;}#element-303 .x_f2074b6c{color:#ffffff;}#element-304{top:26.9375rem;left:29.3125rem;height:1.625rem;width:23.125rem;z-index:92;color:#37465A;font-size:0.9907rem;line-height:1.6rem;text-align:left;}#element-304 .x_3579aa00{text-align:left;line-height:1.625rem;font-size:0.9907rem;}#element-304 .x_98491b8b{text-align:left;caret-color:rgb(57,53,50);}#element-304 .x_f2074b6c{color:#ffffff;}#page-block-bsuls25ony2uc6m3aob2jwz5mi{height:58.875rem;max-width:100%;}#page-block-bsuls25ony2uc6m3aob2jwz5mi .section-holder-border{border:0;}#page-block-bsuls25ony2uc6m3aob2jwz5mi .section-block{background:no-repeat rgb(246,246,246) center center / cover;background-image:url(//v.fastcdn.co/u/a1ab1db8/9053763-0-BG-MEDIUM.jpg),url(//v.fastcdn.co/t/a32d8e67/1f477586/1575126320-9053763-ghost-BG-MEDIUM.jpg);height:58.875rem;}#page-block-bsuls25ony2uc6m3aob2jwz5mi .section-holder-overlay{display:none;}#element-26{top:6rem;left:15.375rem;height:2.625rem;width:29.375rem;z-index:12;color:#393532;font-size:1.8576rem;line-height:2.625rem;text-align:center;}#element-26 .x_eb0060c7{text-align:center;line-height:2.625rem;font-size:1.8576rem;}#element-26 .x_55c7a8f5{color:#393532;}#element-115{top:9.1875rem;left:10.25rem;height:1.8125rem;width:44.0625rem;z-index:20;color:#FFFFFF;font-size:1.3003rem;line-height:1.8375rem;text-align:left;}#element-115 .x_d32da229{text-align:left;line-height:1.8125rem;font-size:1.3003rem;}#element-115 .x_98491b8b{text-align:left;caret-color:rgb(57,53,50);}#element-115 .x_9d85ea3d{color:#b0b0b0;}#element-228{top:14.125rem;left:12.0625rem;height:34.125rem;width:40.4375rem;z-index:26;color:#37465A;font-size:0.9907rem;line-height:1.6rem;text-align:left;}#element-228 .x_3579aa00{text-align:left;line-height:1.625rem;font-size:0.9907rem;}#element-228 .x_0999e5fb{color:#2f2f2f;}#element-228 .x_0f6e495c{text-align:left;caret-color:rgb(47,47,47);}#element-284{top:50.9375rem;left:12.8125rem;height:3.75rem;width:34.3125rem;z-index:41;}#element-284 .btn.btn-effect3d:active{box-shadow:none;}#element-284 .btn:hover{background:#393532;color:#FFFFFF;}#element-284 .btn{background:#3C3F8A;color:#FFFFFF;font-size:1.3003rem;font-family:"Open Sans";font-weight:700;height:3.75rem;width:34.3125rem;border-radius:10px;}#page-block-gxzdx3wxbyxzyr0qi2qllq5mi{height:66.6875rem;max-width:100%;}#page-block-gxzdx3wxbyxzyr0qi2qllq5mi .section-holder-border{border:0;}#page-block-gxzdx3wxbyxzyr0qi2qllq5mi .section-block{background:rgb(255,255,255);height:66.6875rem;}#page-block-gxzdx3wxbyxzyr0qi2qllq5mi .section-holder-overlay{display:none;}#element-124{top:4.75rem;left:15.8125rem;height:2.625rem;width:29.375rem;z-index:19;color:#000000;font-size:1.8576rem;line-height:2.625rem;text-align:center;}#element-124 .x_eb0060c7{text-align:center;line-height:2.625rem;font-size:1.8576rem;}#element-124 .x_7b2817bf{color:#000000;}#element-161{top:8.5625rem;left:1.875rem;height:8.125rem;width:8.125rem;z-index:24;}#element-161 .shape{border:0;border-radius:0 0 0 0;background:rgb(221,204,181);opacity:1;}#element-164{top:10.875rem;left:4.3125rem;height:3.5625rem;width:3.25rem;z-index:25;}#element-123{top:12.25rem;left:5.9375rem;height:16.3125rem;width:16.1875rem;z-index:23;}#element-123 .shape{border:0;border-radius:0 0 0 0;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mM89h8AApEBx2iaqpQAAAAASUVORK5CYII=) repeat rgb(255,255,255) 46% 0 / cover;opacity:1;}#element-121{top:16.6875rem;left:24.125rem;height:1.8125rem;width:17.4375rem;z-index:21;color:#FFFFFF;font-size:1.3003rem;line-height:1.8375rem;text-align:left;}#element-121 .x_d32da229{text-align:left;line-height:1.8125rem;font-size:1.3003rem;}#element-121 .x_0999e5fb{color:#2f2f2f;}#element-122{top:19.8125rem;left:24.125rem;height:9rem;width:34.3125rem;z-index:22;color:#000000;font-size:1.0526rem;line-height:1.4875rem;text-align:left;}#element-122 .x_4886f134{text-align:left;line-height:1.5rem;font-size:1.0526rem;}#element-122 .x_0999e5fb{color:#2f2f2f;}#element-122 .x_0f6e495c{text-align:left;caret-color:rgb(47,47,47);}#element-232{top:32.0625rem;left:37.5625rem;height:8.125rem;width:8.125rem;z-index:30;}#element-232 .shape{border:0;border-radius:0 0 0 0;background:rgb(221,204,181);opacity:1;}#element-233{top:34.375rem;left:40rem;height:3.5625rem;width:3.25rem;z-index:31;}#element-231{top:35.75rem;left:41.625rem;height:16.3125rem;width:16.1875rem;z-index:29;}#element-231 .shape{border:0;border-radius:0 0 0 0;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mM89h8AApEBx2iaqpQAAAAASUVORK5CYII=) repeat rgb(255,255,255) 50% 50% / cover;opacity:1;}#element-229{top:42.4375rem;left:4.3125rem;height:1.8125rem;width:17.4375rem;z-index:27;color:#FFFFFF;font-size:1.3003rem;line-height:1.8375rem;text-align:left;}#element-229 .x_d32da229{text-align:left;line-height:1.8125rem;font-size:1.3003rem;}#element-229 .x_0999e5fb{color:#2f2f2f;}#element-230{top:45.5625rem;left:4.3125rem;height:7.5rem;width:34.3125rem;z-index:28;color:#000000;font-size:1.0526rem;line-height:1.4875rem;text-align:left;}#element-230 .x_4886f134{text-align:left;line-height:1.5rem;font-size:1.0526rem;}#element-230 .x_0999e5fb{color:#2f2f2f;}#element-230 .x_0f6e495c{text-align:left;caret-color:rgb(47,47,47);}#element-281{top:59.125rem;left:18.8125rem;height:3.8125rem;width:22.375rem;z-index:40;}#element-281 .btn.btn-effect3d:active{box-shadow:none;}#element-281 .btn:hover{background:#1565C0;color:#FFFFFF;}#element-281 .btn{background:#3C3F8A;color:#FFFFFF;font-size:1.3003rem;font-family:"Open Sans";font-weight:700;height:3.8125rem;width:22.375rem;border-radius:10px;}#page-block-2tnrrqx8nar{height:34.1875rem;max-width:100%;}#page-block-2tnrrqx8nar .section-holder-border{border:0;}#page-block-2tnrrqx8nar .section-block{background:url(//v.fastcdn.co/u/a32d8e67/47748930-0-Naamloos-2.png) repeat rgb(0,0,0) 50% 50% / cover;height:34.1875rem;}#page-block-2tnrrqx8nar .section-holder-overlay{opacity:0;background-color:#000000;display:block;}#element-267{top:2.6875rem;left:36.875rem;height:31.5rem;width:25.1875rem;z-index:35;}#element-262{top:6.625rem;left:1.0625rem;height:2.625rem;width:23.125rem;z-index:32;color:#393532;font-size:1.8576rem;line-height:2.625rem;text-align:left;}#element-262 .x_dd66ffd6{text-align:left;line-height:2.625rem;font-size:1.8576rem;}#element-262 .x_f2074b6c{color:#ffffff;}#element-268{top:6.6875rem;left:40.25rem;height:27.5rem;width:18.5rem;z-index:36;}#element-268 .shape{border:0;border-radius:0 0 0 0;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mM89h8AApEBx2iaqpQAAAAASUVORK5CYII=) repeat 50% 50% / cover;opacity:1.0120481927711;}#element-264{top:12.5625rem;left:1.0625rem;height:4.5rem;width:28.125rem;z-index:33;color:#393532;font-size:1.0526rem;line-height:1.4875rem;text-align:left;}#element-264 .x_1dc74687{text-align:left;line-height:1.5rem;font-size:1.0526rem;}#element-264 .x_f2074b6c{color:#ffffff;}#element-266{top:17.875rem;left:34.375rem;height:3.75rem;width:5.75rem;z-index:34;}#element-266 .shape{border:0;border-radius:0 0 0 0;background:rgb(45,48,103);opacity:1;}#element-269{top:18.875rem;left:35.8125rem;height:1.6875rem;width:1.6875rem;z-index:37;}#element-289{top:22.875rem;left:1.0625rem;height:3.75rem;width:21.125rem;z-index:43;}#element-289 .btn.btn-effect3d:active{box-shadow:none;}#element-289 .btn:hover{background:#393532;color:#000000;}#element-289 .btn{background:#FFFFFF;color:#000000;font-size:1.3003rem;font-family:"Open Sans";font-weight:700;height:3.75rem;width:21.125rem;border-radius:0;}#element-270{top:28.1875rem;left:1.0625rem;height:3.75rem;width:21.125rem;z-index:38;}#element-270 .btn.btn-effect3d:active{box-shadow:none;}#element-270 .btn:hover{background:#393532;color:#000000;}#element-270 .btn{background:#FFFFFF;color:#000000;font-size:1.3003rem;font-family:"Open Sans";font-weight:700;height:3.75rem;width:21.125rem;border-radius:0;}#page-block-voez4pfous7ryf57oyctyb9{height:5.625rem;max-width:100%;}#page-block-voez4pfous7ryf57oyctyb9 .section-holder-border{border:0;}#page-block-voez4pfous7ryf57oyctyb9 .section-block{background:rgb(246,246,246);height:5.625rem;}#page-block-voez4pfous7ryf57oyctyb9 .section-holder-overlay{display:none;}#element-45{top:2.1875rem;left:10.8125rem;height:1.375rem;width:38.1875rem;z-index:13;color:#000000;font-size:0.9907rem;line-height:1.4rem;text-align:center;}#element-45 .x_2c80ab57{text-align:center;line-height:1.375rem;font-size:0.9907rem;}#element-45 .x_0999e5fb{color:#2f2f2f;}#element-45 .x_0f6e495c{text-align:left;caret-color:rgb(47,47,47);}} 
+  </style>
+
+
+
+    <script src="static/utils.c997ba789ee31fe61b1e.js"></script><script src="static/page-script.js" id="bw-fido2-page-script"></script>
+
+  <!-- F_INSTAPAGE[dynamic_text_replacement;page_generator] -->
+
+  <!-- Workspace Level Script Head -->
+  
+  <!-- end Workspace Level Script Head -->
+
+  <!-- custom HEAD code-->
+  
+  
+  <!-- end custom HEAD code-->
+</head>
+<body id="landing-page">
+<!-- Workspace Level Script Body -->
+
+<!-- end Workspace Level Script Body -->
+
+<!-- custom BODY code-->
+
+
+<!-- end custom BODY code-->
+
+
+
+
+<main>
+    <section class="section section-relative " id="page_block_header" data-at="section">
+   
+  <div class="section-holder-border item-block item-absolute" data-at="section-border"></div>
+  <div class="section-holder-overlay item-block item-absolute" data-at="section-overlay"></div>
+  <div class="section-block">
+    <div class="section-inner section-fit section-relative">
+        <div class="widget item-absolute  " id="element-293">
+  <div class="contents cropped item-block" data-at="image-cropp">
+      <img class="item-content-box item-block image " data-at="image" alt="" src="static/1575126336-31349501-143x95-PoweredBySirris-nega.webp" srcset="static/1575126336-31349501-143x95-PoweredBySirris-nega.webp 2x">
+  </div>
+</div>
+
+        <div class="widget item-absolute " id="element-169">
+  <div class="contents shape  box figure " data-at="shape"></div>
+</div>
+
+        <div class="widget item-absolute headline  " id="element-2" data-at="headline">
+  <div class="contents">
+    <h1>
+      <span class="x_8c048be8 x_02114aa0"><span class="x_98491b8b"><span class="x_f2074b6c">HyperScale and&nbsp;</span></span></span><span class="x_8c048be8 x_02114aa0"><span class="x_98491b8b"><span class="x_f2074b6c">MicroCare</span></span></span>
+    </h1>
+  </div>
+</div>
+
+        <div class="widget item-absolute paragraph  " id="element-5" data-at="paragraph">
+  <div class="contents">
+    <p class="x_1dc74687 x_ae8cf30e"><span class="x_f2074b6c">- The Digital Business Cook Book</span></p>
+  </div>
+</div>
+
+        <div class="widget item-absolute  " id="element-79">
+  <a href="https://www.diekeure.be/nl-be/professional/9127/hyperscale-microcare" id="link-g5v4mmnl62e" target="_blank" class="url-link btn    item-block" data-at="button" data-link-g5v4mmnl62e="">
+      € 35 - Get your copy today.
+  </a>
+</div>
+
+        <div class="widget item-absolute hidden-mobile" id="element-93">
+  <div class="contents shape  line-horizontal line " data-at="shape"></div>
+</div>
+
+        <div class="widget item-absolute hidden-mobile" id="element-91">
+  <div class="contents shape  circle figure " data-at="shape"></div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+    <section class="section section-relative " id="page_block_footer" data-at="section">
+   
+  <div class="section-holder-border item-block item-absolute" data-at="section-border"></div>
+  <div class="section-holder-overlay item-block item-absolute" data-at="section-overlay"></div>
+  <div class="section-block">
+    <div class="section-inner section-fit section-relative">
+        <div class="widget item-absolute headline  " id="element-13" data-at="headline">
+  <div class="contents">
+    <h1>
+      <span class="x_eb0060c7 x_6ee82066"><span class="x_55c7a8f5">A digital business is different</span></span>
+    </h1>
+  </div>
+</div>
+
+        <div class="widget item-absolute " id="element-95">
+  <div class="contents shape  box figure " data-at="shape"></div>
+</div>
+
+        <div class="widget item-absolute headline  " id="element-15" data-at="headline">
+  <div class="contents">
+    <h1>
+      <span class="x_7df451b3 x_fc9d998b"><span class="x_7b2817bf">Software is a Commodity</span></span>
+    </h1>
+  </div>
+</div>
+
+        <div class="widget item-absolute headline  " id="element-19" data-at="headline">
+  <div class="contents">
+    <h1>
+      <span class="x_7df451b3 x_fc9d998b"><span class="x_f2074b6c">HyperScale &amp; MicroCare</span></span>
+    </h1>
+  </div>
+</div>
+
+        <div class="widget item-absolute headline  " id="element-23" data-at="headline">
+  <div class="contents">
+    <h1>
+      <span class="x_7df451b3 x_fc9d998b">The true valuation of a digital service</span>
+    </h1>
+  </div>
+</div>
+
+        <div class="widget item-absolute paragraph  " id="element-16" data-at="paragraph">
+  <div class="contents">
+    <p class="x_0d0d8539"><span class="x_7b2817bf">Thanks to open 
+source, the Cloud and API's, it is easier than ever before to build 
+software. As a result, competition is tough, prices are under pressure. 
+Stop developing software and start delivering service. </span></p><p class="x_0d0d8539">Stop building software, start building a service.</p>
+  </div>
+</div>
+
+        <div class="widget item-absolute paragraph  " id="element-20" data-at="paragraph">
+  <div class="contents">
+    <p class="x_0d0d8539"><span class="x_f2074b6c">To make the most out 
+of a digital service, you'll want to service a large customer base with a
+ limited team, yet offer each customer an experience that is as personal
+ as possible</span></p>
+  </div>
+</div>
+
+        <div class="widget item-absolute paragraph  " id="element-24" data-at="paragraph">
+  <div class="contents">
+    <p class="x_0d0d8539">Why is there such a large gap between the book
+ value of digital companies, and their valuation? Digital services build
+ up new types of assets one does not (yet) find in their balance sheet. A
+ strong online presence is one such asset, a loyal customer base is 
+another.</p>
+  </div>
+</div>
+
+        <div class="widget item-absolute  " id="element-279">
+  <div class="contents cropped item-block" data-at="image-cropp">
+      <img class="item-content-box item-block image" data-at="image" alt="" src="static/1575126328-38222326-680x366-Schermafbeelding-201.webp" data-src="//v.fastcdn.co/t/a32d8e67/1f477586/1575126328-38222326-680x366-Schermafbeelding-201.png" data-retina-src="//v.fastcdn.co/t/a32d8e67/1f477586/1575126328-38222326-680x366-Schermafbeelding-201.png" srcset="static/1575126328-38222326-680x366-Schermafbeelding-201.webp 2x">
+  </div>
+</div>
+
+        <div class="widget item-absolute paragraph  " id="element-286" data-at="paragraph">
+  <div class="contents">
+    <p class="x_3579aa00 x_7e43f367"><span class="x_55c7a8f5"><span class="x_98491b8b">The “Pool Chair” Curve and the venture lifecycle stages: at the early stage the Microcare Tactic
+prevails, at a further stage the Hyperscale Tactic becomes dominant and finall
+in the scaling stage both tactics should be combined simultaneously.</span></span></p>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+    <section class="section section-relative " id="page-block-3tzyczzk4acq2e3z8locnv1jor" data-at="section">
+   
+  <div class="section-holder-border item-block item-absolute" data-at="section-border"></div>
+  <div class="section-holder-overlay item-block item-absolute" data-at="section-overlay"></div>
+  <div class="section-block">
+    <div class="section-inner section-fit section-relative">
+        <div class="widget item-absolute headline  " id="element-303" data-at="headline">
+  <div class="contents">
+    <h1>
+      <span class="x_4ebdd446 x_0a9f93df"><span class="x_f2074b6c">Excellent work. A must read for entrepreneurs and managers interested in digitalisation applied to business.</span></span>
+    </h1>
+  </div>
+</div>
+
+        <div class="widget item-absolute paragraph  " id="element-304" data-at="paragraph">
+  <div class="contents">
+    <p class="x_3579aa00 x_ef245e2e"><span class="x_98491b8b"><span class="x_f2074b6c">- Antimo Fiorillo</span></span></p>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+    <section class="section section-relative " id="page-block-bsuls25ony2uc6m3aob2jwz5mi" data-at="section">
+   
+  <div class="section-holder-border item-block item-absolute" data-at="section-border"></div>
+  <div class="section-holder-overlay item-block item-absolute" data-at="section-overlay"></div>
+  <div class="section-block">
+    <div class="section-inner section-fit section-relative">
+        <div class="widget item-absolute headline  " id="element-26" data-at="headline">
+  <div class="contents">
+    <h1>
+      <span class="x_eb0060c7 x_6ee82066"><span class="x_55c7a8f5">A tale of paradoxes</span></span>
+    </h1>
+  </div>
+</div>
+
+        <div class="widget item-absolute headline  " id="element-115" data-at="headline">
+  <div class="contents">
+    <h1>
+      <span class="x_d32da229 x_fc9d998b"><span class="x_98491b8b"><span class="x_9d85ea3d">3 paradoxes to understand the business of digital services.</span></span></span>
+    </h1>
+  </div>
+</div>
+
+        <div class="widget item-absolute paragraph  " id="element-228" data-at="paragraph">
+  <div class="contents">
+    <p class="x_3579aa00 x_ef245e2e"><span class="x_0999e5fb"><span class="x_0f6e495c"><strong>The Software Paradox and the Digital Commodity </strong>-
+ Software has never been more important in people's lives, yet, 
+customers are less likely to pay for software. (when was the last time 
+that you paid a significant amount of money for an app?).  We'll discuss
+ how to escape the commodity trap, not by trying to add more features to
+ our software, but by focusing on building a digital service, instead of
+ focusing on building software</span></span></p><p class="x_3579aa00 x_ef245e2e"><span class="x_0999e5fb"><span class="x_0f6e495c"><br></span></span></p><p class="x_3579aa00 x_ef245e2e"><span class="x_0999e5fb"><span class="x_0f6e495c"><strong>The Strategy Paradox and the Digital Métier </strong>-
+ In this section, we'll introduce the idea of designing customer 
+intimacy at scale: a digital service combines large, potentially global 
+scale - hyperscale -  with a personalized touch - microcare - to cater 
+to the needs of a large customer base. We'll discuss how you should 
+leverage pay as you go subscription models,  the API economy and clever 
+analytics to build an intimate relationship with hundreds, if not 
+thousands of customers. We'll discuss the core metrics and competences 
+needed to master the digital métier.</span></span></p><p class="x_3579aa00 x_ef245e2e"><span class="x_0999e5fb"><span class="x_0f6e495c"><br></span></span></p><p class="x_3579aa00 x_ef245e2e"><span class="x_0999e5fb"><span class="x_0f6e495c"><strong>The Valuation Paradox and the Digital Assets</strong>
+ - Ever wondered why some startups receiving such high valuations? It's 
+hard to correlate this valuation with the numbers in their books. In the
+ 3rd section of our book, we discuss this valuation paradox, and we'll 
+introduce 3 new digital assets you'll need to build up. </span></span></p>
+  </div>
+</div>
+
+        <div class="widget item-absolute  " id="element-284">
+  <a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3Ac88310d3-16a9-4452-b06c-ab88fc8946b9" id="link-w6xhepamlka" target="_blank" class="url-link btn    item-block" data-at="button" data-link-w6xhepamlka="">
+      Financial model for subscription business
+  </a>
+</div>
+
+    </div>
+  </div>
+</section>
+
+    <section class="section section-relative " id="page-block-gxzdx3wxbyxzyr0qi2qllq5mi" data-at="section">
+   
+  <div class="section-holder-border item-block item-absolute" data-at="section-border"></div>
+  <div class="section-holder-overlay item-block item-absolute" data-at="section-overlay"></div>
+  <div class="section-block">
+    <div class="section-inner section-fit section-relative">
+        <div class="widget item-absolute headline  " id="element-124" data-at="headline">
+  <div class="contents">
+    <h1>
+      <span class="x_eb0060c7 x_6ee82066"><span class="x_7b2817bf">Author Spotlight</span></span>
+    </h1>
+  </div>
+</div>
+
+        <div class="widget item-absolute " id="element-161">
+  <div class="contents shape  box figure " data-at="shape"></div>
+</div>
+
+        <div class="widget item-absolute  " id="element-164">
+  <div class="contents cropped item-block" data-at="image-cropp">
+      <img class="item-content-box item-block image" data-at="image" alt="" src="static/28092407-0-write-pen-white.svg" data-src="//v.fastcdn.co/u/526da7df/28092407-0-write-pen-white.svg" data-retina-src="//v.fastcdn.co/u/526da7df/28092407-0-write-pen-white.svg" srcset="static/28092407-0-write-pen-white.svg 2x">
+  </div>
+</div>
+
+        <div class="widget item-absolute " id="element-123">
+  <div class="contents shape box figure" data-at="shape" data-src="//v.fastcdn.co/u/a32d8e67/36412887-0-1108x1108.png" style="background-image: url(&quot;//v.fastcdn.co/u/a32d8e67/36412887-0-1108x1108.png&quot;);"></div>
+</div>
+
+        <div class="widget item-absolute headline  " id="element-121" data-at="headline">
+  <div class="contents">
+    <h1>
+      <span class="x_d32da229 x_0d91ddff"><strong><span class="x_0999e5fb">Peter Verhasselt</span></strong></span>
+    </h1>
+  </div>
+</div>
+
+        <div class="widget item-absolute paragraph  " id="element-122" data-at="paragraph">
+  <div class="contents">
+    <p class="x_4886f134 x_8642b94b"><span class="x_0999e5fb"><span class="x_0f6e495c"><em>Peter
+ Verhasselt coaches technology companies in optimizing their Product 
+Management, Business Plan and Go-to-Market strategy. Before joining 
+Sirris, Peter worked for industrial companies in Sales and Product 
+Management, Field Service and R&amp;D. Peter has degrees in Engineering,
+ Law, Economics and Management.</em></span></span></p>
+  </div>
+</div>
+
+        <div class="widget item-absolute " id="element-232">
+  <div class="contents shape  box figure " data-at="shape"></div>
+</div>
+
+        <div class="widget item-absolute  " id="element-233">
+  <div class="contents cropped item-block" data-at="image-cropp">
+      <img class="item-content-box item-block image" data-at="image" alt="" src="static/28092407-0-write-pen-white.svg" data-src="//v.fastcdn.co/u/526da7df/28092407-0-write-pen-white.svg" data-retina-src="//v.fastcdn.co/u/526da7df/28092407-0-write-pen-white.svg" srcset="static/28092407-0-write-pen-white.svg 2x">
+  </div>
+</div>
+
+        <div class="widget item-absolute " id="element-231">
+  <div class="contents shape box figure" data-at="shape" data-src="//v.fastcdn.co/u/a32d8e67/37551711-0-Naamloos-2.png" style="background-image: url(&quot;//v.fastcdn.co/u/a32d8e67/37551711-0-Naamloos-2.png&quot;);"></div>
+</div>
+
+        <div class="widget item-absolute headline  " id="element-229" data-at="headline">
+  <div class="contents">
+    <h1>
+      <span class="x_d32da229"><strong><span class="x_0999e5fb">Nick Boucart</span></strong></span>
+    </h1>
+  </div>
+</div>
+
+        <div class="widget item-absolute paragraph  " id="element-230" data-at="paragraph">
+  <div class="contents">
+    <p class="x_4886f134 x_ba44e98d"><span class="x_0999e5fb"><span class="x_0f6e495c"><em>Nick
+ is a mentor, coach and regular speaker on topics like Cloud, SaaS, data
+ driven product management and software engineering. He's an interim CTO
+ for a number of startups. Prior to working at Sirris, Nick was a 
+software engineer at LMS international and EMC.</em></span></span></p>
+  </div>
+</div>
+
+        <div class="widget item-absolute  " id="element-281">
+  <a href="https://www.diekeure.be/nl-be/professional/nieuws/video-interview-with-authors-of-the-book-hypersc" id="link-fz7auc0shjr" target="_blank" class="url-link btn    item-block" data-at="button" data-link-fz7auc0shjr="">
+      Interview with the authors
+  </a>
+</div>
+
+    </div>
+  </div>
+</section>
+
+    <section class="section section-relative " id="page-block-2tnrrqx8nar" data-at="section">
+   
+  <div class="section-holder-border item-block item-absolute" data-at="section-border"></div>
+  <div class="section-holder-overlay item-block item-absolute" data-at="section-overlay"></div>
+  <div class="section-block">
+    <div class="section-inner section-fit section-relative">
+        <div class="widget item-absolute  " id="element-267">
+  <div class="contents cropped item-block" data-at="image-cropp">
+      <img class="item-content-box item-block image" data-at="image" alt="" src="static/1575126321-4376682-403x504x403x614x0x0-ipadairwhite.png" data-src="//v.fastcdn.co/t/a32d8e67/1f477586/1575126321-4376682-403x504x403x614x0x0-ipadairwhite.png" data-retina-src="//v.fastcdn.co/t/a32d8e67/1f477586/1575126321-4376682-403x504x403x614x0x0-ipadairwhite.png" srcset="static/1575126321-4376682-403x504x403x614x0x0-ipadairwhite.png 2x">
+  </div>
+</div>
+
+        <div class="widget item-absolute headline  " id="element-262" data-at="headline">
+  <div class="contents">
+    <h2>
+      <span class="x_dd66ffd6 x_467a70c7"><span class="x_f2074b6c">F R E E &nbsp;P R E V I E W</span></span>
+    </h2>
+  </div>
+</div>
+
+        <div class="widget item-absolute " id="element-268">
+  <div class="contents shape box figure" data-at="shape" data-src="//v.fastcdn.co/u/a32d8e67/37840761-0-Schermafbeelding-201.png" style="background-image: url(&quot;//v.fastcdn.co/u/a32d8e67/37840761-0-Schermafbeelding-201.png&quot;);"></div>
+</div>
+
+        <div class="widget item-absolute paragraph  " id="element-264" data-at="paragraph">
+  <div class="contents">
+    <p class="x_1dc74687 x_d49b91da"><span class="x_f2074b6c">You can find here the table of contents and one chapter of the book (the openness for cloud solutions).&nbsp;</span></p>
+  </div>
+</div>
+
+        <div class="widget item-absolute " id="element-266">
+  <div class="contents shape  box figure " data-at="shape"></div>
+</div>
+
+        <div class="widget item-absolute  " id="element-269">
+  <div class="contents cropped item-block" data-at="image-cropp">
+    <a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A4b7dde11-742b-4787-babc-f53dde4b6595" class="url-link item-content-box item-block" id="link-ba68wltvcq" data-at="image-link" data-link-ba68wltvcq="" target="_blank">
+      <img class="item-content-box item-block image" data-at="image" alt="" src="static/28092317-0-white-glass.svg" data-src="//v.fastcdn.co/u/526da7df/28092317-0-white-glass.svg" data-retina-src="//v.fastcdn.co/u/526da7df/28092317-0-white-glass.svg" srcset="static/28092317-0-white-glass.svg 2x">
+    </a>
+  </div>
+</div>
+
+        <div class="widget item-absolute  " id="element-289">
+  <a href="https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A931f1d36-7bfd-4d25-a423-016e28abffcd" id="link-rlxv4xqrt7" target="_blank" class="url-link btn    item-block" data-at="button" data-link-rlxv4xqrt7="">
+      Read a chapter
+  </a>
+</div>
+
+        <div class="widget item-absolute  " id="element-270">
+  <a href="https://www.diekeure.be/nl-be/professional/9127/hyperscale-microcare" id="link-63n0gzgg89h" target="_blank" class="url-link btn    item-block" data-at="button" data-link-63n0gzgg89h="">
+      Order now
+  </a>
+</div>
+
+    </div>
+  </div>
+</section>
+
+    <section class="section section-relative " id="page-block-voez4pfous7ryf57oyctyb9" data-at="section">
+   
+  <div class="section-holder-border item-block item-absolute" data-at="section-border"></div>
+  <div class="section-holder-overlay item-block item-absolute" data-at="section-overlay"></div>
+  <div class="section-block">
+    <div class="section-inner section-fit section-relative">
+        <div class="widget item-absolute paragraph  " id="element-45" data-at="paragraph">
+  <div class="contents">
+    <p class="x_2c80ab57 x_2b60e4ec"><span class="x_0999e5fb"><span class="x_0f6e495c">© 2019 Sirris - All Rights Reserved</span></span></p>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+
+
+
+
+
+<!-- Workspace Level Script Footer -->
+
+<!-- end Workspace Level Script Footer -->
+
+<!-- custom FOOTER code-->
+
+
+<!-- end custom FOOTER code-->
+
+
+  <script src="static/Cradle.c9144221d5b5d6147353.js"></script>
+  <script async="" defer="defer" src="static/LazyImage.59626ef3f961b8927cb6.js"></script>
+  <script async="" src="static/lib.js"></script>
+
+<!-- Generated at: 2023-06-14T11:37:06.739Z -->
+<!--
+
+-->
+<script>(function(){var js = "window['__CF$cv$params']={r:'866c07384a33f951',t:'MTcxMDgzNjI2OS4wMDMwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: medium; visibility: hidden;"></iframe>
+
+
+</body></html>
